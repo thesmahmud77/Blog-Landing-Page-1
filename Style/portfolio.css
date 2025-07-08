@@ -1,57 +1,76 @@
 
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-
 }
-/* Nav style */
+
+
+/* Nav Style */
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 10px 200px;
+    padding: 0px 120px;
 }
-
-/* Logo */
-.nav-tittle{
-    font-weight: 800;
-    font-size: 45px;
+.nav-logo{
+    font-weight: 800px;
+    font-size: 43px;
 }
-
-
-/* shared style */
-.Primary-Color{
-    color: #FD6E0A;
-
+.PC{
+    color: #fd6e01;
 }
 nav ul{
     display: flex;
     align-items: center;
 }
-
+.nav-li{
+    color: #474747;
+}
 nav ul li{
     list-style: none;
     margin-right: 50px;
 }
-
 nav ul li a{
     text-decoration: none;
+    font-size: 22px;
+}
+.btn-p{
+    background-color: #fd6e01;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
 }
 
-.dark-2{
+/* Hero CSS */
+
+.banner-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF8F3;
+    min-height: 100vh;
+    background-image: ;
+    /* margin: 0px 35px 0px 120px; */
+
+}
+.banner-Greetings{
+    font-size: 45px;
+    font-weight: 500;
     color: #474747;
 }
-.btn-Primary{
-    background-color: #FD6E0A;
-    font-size: 20px;
-    color: white;
-    padding: 10px 20px ;
-    border-radius: 5px;
-    margin-right: 50px;
-    border: none  ;
-
+.Banner-heading{
+    font-size: 85px;
+    font-weight: bold;
+    color: #474747;
+}
+.banner-description{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 400;
+    
 }
