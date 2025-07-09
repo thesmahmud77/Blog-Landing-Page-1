@@ -126,18 +126,20 @@ main{
     color: #474747;
 }
 
-/* What I do Style */
 
-.What-i-do{
-    text-align: center;
+
+/* skill Style */
+.skill{
+    text-align: center; 
 }
-.what-para{
+.skill-heading{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.skill-para{
     font-size: 18px;
     font-weight: 400;
     color: #474747;
-
-}
-.what-card-content{
-    width: 265px; 
-    height: 380px;
+    margin: 0px 110px;
 }
