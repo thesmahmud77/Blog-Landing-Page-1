@@ -195,8 +195,11 @@ footer{
 }
 .footer-main-container{
     display: flex;
-    padding: 50px;
-    gap: 50px;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-inner-wrapper{
+    width: 50%;
 }
 .footer-heading{
     font-size: 35px;
@@ -208,10 +211,15 @@ footer{
     font-weight: 400;
     margin-bottom: 30px;
 }
-.footer-from{
-    display: list-item;
-}
-.footer-from-input{
-    padding: 20px 35px;
-    border-radius: none;
+footer input[type="text"], footer input[type="email"],footer textarea {
+    height: 65px;
+    border-radius: 5px;
+    background-color: white;
+    color: #474747;
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
