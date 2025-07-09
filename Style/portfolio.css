@@ -7,6 +7,10 @@
     "wdth" 100;
 }
 
+h3{
+    font-size: 35px;
+    font-weight: 600;
+}
 
 /* Nav Style */
 nav{
@@ -55,22 +59,85 @@ nav ul li a{
     background-color: #FFF8F3;
     min-height: 100vh;
     background-image: ;
-    /* margin: 0px 35px 0px 120px; */
+    margin: 0px 35px 0px 120px;
 
 }
 .banner-Greetings{
     font-size: 45px;
     font-weight: 500;
     color: #474747;
+    padding: 0px;
 }
 .Banner-heading{
     font-size: 85px;
     font-weight: bold;
     color: #474747;
+    padding: 0px;
+    padding: 0px;
 }
 .banner-description{
     color: #474747;
     font-size: 18px;
     font-weight: 400;
+    padding: 0px;
     
+}
+
+/* About Style */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.about{
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 130px 0px
+
+
+}
+.About-card-wrapper{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-card-name{
+    font-weight: 700;
+    font-size: 20;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.about-heading{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about-description{
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #474747;
+}
+
+/* What I do Style */
+
+.What-i-do{
+    text-align: center;
+}
+.what-para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #474747;
+
+}
+.what-card-content{
+    width: 265px; 
+    height: 380px;
 }
